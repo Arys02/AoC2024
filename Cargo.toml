@@ -12,9 +12,5 @@ harness = false
 [lib]
 bench = false
 
-[profile.release]
-lto = "fat"
-codegen-units = 1
-
 [dependencies]
 criterion = "0.5.1"
