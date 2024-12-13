@@ -9,6 +9,10 @@ authors = ["Arys"]
 name = "day1"
 harness = false
 
+[[bench]]
+name = "day2"
+harness = false
+
 [lib]
 bench = false
 
